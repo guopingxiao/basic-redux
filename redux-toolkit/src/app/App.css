@@ -1,0 +1,10 @@
+.App {
+  display: flex;
+}
+
+.nav {
+  min-width: 120px;
+  min-height: 100vh;
+  background: #ddd;
+  padding-left: 10px;
+}
