@@ -1,8 +1,8 @@
 import React, { useEffect } from 'react'
 import { useSelector, useDispatch } from 'react-redux'
-import PostList from '../../components/PostList';
-import { fetchPostList } from './postsSlice'
-import { RootState } from '../rootReducer'
+import PostList from './PostList';
+import { fetchPostList } from '../store/posts/postsSlice'
+import { RootState } from '../store/rootReducer'
 
 export const Posts = () => {
   const dispatch = useDispatch()

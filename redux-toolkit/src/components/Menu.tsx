@@ -1,8 +1,8 @@
 import React from "react";
 import { useSelector, useDispatch } from "react-redux";
 import MenuList from "components/MenuList";
-import { setMenu } from "./menuSlice";
-import { fetchPostList } from "../posts/postsSlice";
+import { setMenu } from "../store/menu/menuSlice";
+import { fetchPostList } from "../store/posts/postsSlice";
 import { RootState } from "store/rootReducer";
 
 export const Menu = () => {

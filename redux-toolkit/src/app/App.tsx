@@ -1,7 +1,7 @@
 import React from 'react'
 
-import { Menu } from 'store/menu/Menu'
-import { Posts } from 'store/posts/Posts'
+import { Menu } from 'components/Menu'
+import { Posts } from 'components/Posts'
 
 import './App.css'
 
